@@ -1,8 +1,8 @@
 import praw
 
-reddit = praw.Reddit(client_id='0GaWref38GyFzg',
-                     client_secret='E_fIyNukK3fNRNcrvf2Epntw76o',
-                     user_agent='TSVListChecker by /u/lordtuts')
+reddit = praw.Reddit(client_id='your client_id',
+                     client_secret='your client_secret',
+                     user_agent='your user_agent')
 
 subreddit = reddit.subreddit('SVExchange')
 
